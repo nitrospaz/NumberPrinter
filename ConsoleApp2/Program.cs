@@ -2,13 +2,15 @@
 
 using ConsoleApp2;
 
+int UpperBound = 100;
+
 var numberWordPairs = new Dictionary<int, string>
 {
     { 3, "Walker" },
     { 5, "Crystal" }
 };
 
-NumberPrinter.PrintNumbers(100, numberWordPairs);
+NumberPrinter.PrintNumbers(UpperBound, numberWordPairs);
 
 //// print numbers 1-100 to screen
 //for (int i = 1; i < 101; i++)
